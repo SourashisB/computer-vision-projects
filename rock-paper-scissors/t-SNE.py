@@ -88,6 +88,7 @@ def main():
     plt.ylabel('t-SNE 2')
     plt.legend(title='Class')
     plt.tight_layout()
+    plt.savefig("tsne_embeddings.png", dpi=300)
     plt.show()
 
 if __name__ == '__main__':
